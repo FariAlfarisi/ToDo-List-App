@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/background"
+    style="@style/Background"
     tools:context=".MainActivity">
 
     <EditText
@@ -15,7 +15,7 @@
         android:padding="16dp"
         android:hint="Tambahkan tugas baru"
         android:layout_marginBottom="10dp"
-        android:textColor="@color/white" />
+        style="@style/TextColor" />
 
     <Button
         android:id="@+id/createTaskButton"
@@ -24,6 +24,7 @@
         android:layout_below="@+id/eTTask"
         android:text="Create Task"
         android:backgroundTint="@color/yellow"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
 
 </RelativeLayout>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/background"
+    style="@style/Background"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Task"
         android:textSize="32sp"
-        android:textColor="@color/white"
+        style="@style/TextColor"
         android:textStyle="bold"
         android:layout_marginBottom="16dp"/>
 
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:text="Note: Reset /week"
         android:textSize="20sp"
-        android:textColor="@color/white"
+        style="@style/TextColor"
         android:layout_marginBottom="16dp"
         android:layout_below="@+id/tVTask" />
 
@@ -35,7 +35,7 @@
         android:layout_height="637dp"
         android:layout_below="@+id/tVNote"
         android:nestedScrollingEnabled="true"
-        android:textColor="#FFF"
+        style="@style/TextColor"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

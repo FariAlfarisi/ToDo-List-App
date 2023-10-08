@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#F5E400</color>
     <color name="background">#222021</color>
-    <color name="task_background">#545252</color>
+    <color name="task_background_dark">#545252</color>
+    <color name="task_background_light">#C3BFBF</color>
 
 </resources>
